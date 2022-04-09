@@ -1,0 +1,121 @@
+general:
+  noPermissions:
+    user:
+      title: " <:kruisje:897430497716740127> | Niet genoeg permissions"
+      description: "Je hebt ``<required_permission>`` nodig om deze commando te kunnen uitvoeren."
+    client:
+      title: " <:kruisje:897430497716740127> | Niet genoeg permissions"
+      description: "Ik heb ``<required_permission>`` nodig om deze commando te kunnen uitvoeren."
+
+  wrongUsage:
+    title: " <:kruisje:897430497716740127> | Verkeerd gebruik"
+    description: "Je moet <usage> doen om deze commando succesvol uit te voeren."
+
+  somethingWentWrong:
+    title: " <:kruisje:897430497716740127> | Error"
+    description: "Er is een fout opgetreden tijdens het proberen van: ``<error>``"
+
+setup:
+  questions:
+    role: "> Mention een role die je wilt  gebruiken als ``Ticket Support Role``"
+    log: "> Mention een channel die je wilt gebruiken als ``Ticket Log Channel``"
+    cat: "> Voer de ID in van de channel die je wilt gebruiken als ``Ticket Category ID``"
+    limit: "> Voer het maximalen aantal open tickets per gebruiker in."
+    succeed: "<:vinkje:897430508538060842> Voltooid!"
+  embed:
+    title: "👀 | Setup Fase (<fase>)"
+    description: "Voer het antwoord op ``<question>`` hier in!"
+
+  information:
+    title: "👀 | Setup Informatie"
+    description:  "Alle informatie van de Setup!"
+    fields:
+      first:
+        name: "Ticket Support Role 🦺"
+        value: "> <role>"
+        inline: false
+      second:
+        name: "Ticket Log Channel 📰"
+        value: "> <channel>"
+        inline: false
+      third:
+        name: "Ticket Category ID 💡"
+        value: "> <#<id>>"
+        inline: false
+
+settings:
+    changePrefix:
+        title: "<:vinkje:897430508538060842> | Prefix Veranderd"
+        description: "> Je hebt succesvol de prefix verandert naar: ``<prefix>``"
+
+langSelector:
+  panel:
+    title: "🛡 | Taal Selecteren"
+    description: "Selecteer hier beneden een taal naar **keuze**, Deze taal wordt ingesteld op jou bot en alle berichten worden in die taal weer gegeven!"
+  selected:
+    title: "<:vinkje:897430508538060842> | Taal aangepast!"
+    description: "> Je hebt succesvol de Taal aangepast naar ``<new_language>``"
+
+
+guildJoined:
+  title: "<:blue_crown:897449701153058816> | Bedankt voor het inviten van de bot!"
+  description: 
+    "**Hoe moet ik de bot instellen?**
+   \n > Simpel typ ``e!setup`` en vul alle vragen **CORRECT** in!
+   \n 
+   \n **Wat kan ik aanpassen?**
+   \n > De standard prefix = `e!`
+   \n > U kunt dit wijzigen met `e!prefix <prefix>`
+   \n 
+   \n > De standaard taal = ``Engels``
+   \n > Je kan dit veranderen met: `!language`
+   \n > Voor meer bezoek de [Website](https://docs.rijksoverheid.net/)
+   \n
+   \n ** Ik heb hulp nodig, wat nu?**
+   \n > Je kan de [Support server](https://discord.gg/DCrVbcQWXg) joinen."
+
+
+blacklist:
+    blacklisted:
+      title: "<:vinkje:897430508538060842> | Succesfully Blacklisted"
+      description: "<user> is succesfully blacklisted from the tickets!"
+
+    unblacklisted:
+      title: "<:vinkje:897430508538060842> | Succesfully Unblacklisted"
+      description: "<user> is succesfully unblacklisted from the tickets!"
+    
+    cannotCreateTicket:
+      title: "<:kruisje:897430497716740127> | Je bent geBlacklisted!"
+      description: "Je bent geblacklist van het aanmaken van tickets in: ``<guild>``"
+
+    checkBlacklist:
+      title: "🧷 | Blacklist Toestand"
+      description: "<user>'s blacklist toestand is: ``<status>``"
+
+ticket:
+  panel:
+    title: "🎟 | Open een Ticket!"
+    description: "Welkom bij uw support ticket, beschrijf uw probleem in detail, zodat ons support team u kan helpen!"
+  opened:
+    title: "🦺 | Support Ticket"
+    description: "Welkom bij uw support ticket, beschrijf uw probleem in detail, zodat ons support team u kan helpen."
+  created:
+    description: "Jou ticket is succesvol aangemaakt! Kanaal: <#<channel>>"
+  add:
+    title: "👥 | Succesvol toegevoegd!"
+    description: "<user> is succesvol toegevoegd aan deze ticket!"
+  remove:
+    title: "👥 | Succesvol verwijderd!"
+    description: "<user> is succesvol verwijderd uit deze ticket!"
+  claim:
+    title: "<:vinkje:897430508538060842> | Succesvol geclaimed."
+    description: "<user> heeft deze ticket succesvol geclaimed."
+    topic: "🔐 | <user>"
+  rename: 
+    title: "<:vinkje:897430508538060842> | Succesvol hernoemt."
+    description: "<user> heeft deze ticket gehernoemt."
+  limit: 
+    title: "<:kruisje:897430497716740127> | Limiet Bereikt"
+    description: "Je kan geen ticket openen, Je hebt je limiet bereikt!"
+
+  

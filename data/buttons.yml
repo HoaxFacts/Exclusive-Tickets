@@ -1,0 +1,34 @@
+# All Interactions options
+langSelector:
+    button:
+      netherlands:
+        customId: "language-selector-nl"
+        label: "NL"
+        style: "PRIMARY"
+        emoji: "🔹"
+
+      english:
+        customId: "language-selector-en"
+        label: "EN"
+        style: "SECONDARY"
+        emoji: "🔺"
+
+ticket:
+  button:
+    panel:
+      customId: "open-ticket-button"
+      label: "Open Ticket"
+      style: "PRIMARY"
+      emoji: "🎟"
+
+    ticketOpened:
+      close:
+        customId: "close-ticket-button"
+        label: "Close"
+        style: "PRIMARY"
+        emoji: "🔐"
+      claim:
+        customId: "claim-ticket-button"
+        label: "Claim"
+        style: "SECONDARY"
+        emoji: "🦺"

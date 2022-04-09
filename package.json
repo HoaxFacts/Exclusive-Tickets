@@ -1,0 +1,33 @@
+{
+  "name": "discord.js-v13-template",
+  "version": "1.0.0",
+  "description": "A simple discord.js v13 template",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Venom9718/discord.js-v13-template.git"
+  },
+  "keywords": [
+    "discord.js",
+    "v13",
+    "Venom",
+    "v13",
+    "discord.js@dev"
+  ],
+  "author": "Venom#9718",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Venom9718/discord.js-v13-template/issues"
+  },
+  "homepage": "https://github.com/Venom9718/discord.js-v13-template#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^13.0.0-dev.t1627906063.6e0ea02",
+    "fs": "^0.0.1-security",
+    "js-yaml": "^4.1.0",
+    "quick.db": "^7.1.3"
+  }
+}

@@ -1,0 +1,118 @@
+general:
+  noPermissions:
+    user:
+      title: "<:kruisje:897430497716740127> | Invalid Permissions"
+      description: "You need ``<required_permission>`` to execute this command."
+    client:
+      title: "<:kruisje:897430497716740127> | Invalid Permissions"
+      description: "I need ``<required_permission>`` to execute this command."
+
+  wrongUsage:
+    title: "<:kruisje:897430497716740127> | Invalid Usage"
+    description: "You need to use ``<usage>`` to succesfully execute this command."
+  
+  somethingWentWrong:
+    title: "<:kruisje:897430497716740127> | Error"
+    description: "An error occurred while trying to execute: ``<error>``"
+
+
+setup:
+  questions:
+    role: "> Mention the Role you want to use for ``Ticket Support Role``"
+    log: "> Mention the channel you want to use for ``Ticket Log Channel``"
+    cat: "> Enter the ID of the category you want to use for ``Ticket Category ID``"
+    limit: "> EVoer het maximalen aantal open tickets per gebruiker in."
+    succeed: "<:vinkje:897430508538060842> Completed!"
+  embed:
+    title: "👀 | Setup Phase (<fase>)" 
+    description: "Enter the ``<question>`` here!" # I dont use this one.
+
+  information:
+    title: "👀 | Setup Information"
+    fields:
+      first:
+        name: "Ticket Support Role 🦺"
+        value: "> <role>"
+        inline: false
+      second:
+        name: "Ticket Log Channel 📰"
+        value: "> <channel>"
+        inline: false
+      third:
+        name: "Ticket Category ID 💡"
+        value: "> <#<id>>"
+        inline: false
+  
+settings:
+    changePrefix:
+        title: "<:vinkje:897430508538060842>  | Prefix Changed"
+        description: "You have succesfully changed the prefix to ``<prefix>``"
+
+langSelector:
+  panel:
+    title: "🛡 | Language Selector"
+    description: "Select a language of your **choice** below. This language will be set on your bot and all messages will be **displayed** in that language! ⤵"
+  selected:
+    title: "<:vinkje:897430508538060842>  | Language Changed"
+    description: "You have succesfully changed the Language to ``<new_language>``"
+
+
+guildJoined:
+  title: "<:blue_crown:897449701153058816> | Thank you for inviting me!!"
+  description: 
+    "**How do I set up the bot?** 
+  \n > Simple type ``e!setup`` and fill out all the questions **CORRECT**
+  \n 
+  \n **What can i change?** 
+  \n > The standard prefix = ``e!setup``
+  \n > You can change this with: `e!prefix <prefix>`
+  \n 
+  \n > The standard language = ``English``
+  \n > You can change this with: `!language`
+  \n > For more check the [Website](https://docs.rijksoverheid.net/)
+  \n 
+  \n  **I need Support!** 
+  \n > You can join the [Support server](https://discord.gg/DCrVbcQWXg)."
+
+blacklist:
+    blacklisted:
+      title: "<:vinkje:897430508538060842> | Succesfully Blacklisted"
+      description: "<user> is succesfully blacklisted from the tickets!"
+
+    unblacklisted:
+      title: "<:vinkje:897430508538060842> | Succesfully Unblacklisted"
+      description: "<user> is succesfully unblacklisted from the tickets!"
+    
+    cannotCreateTicket:
+      title: "<:kruisje:897430497716740127> | You're Blacklisted!"
+      description: "You have been blacklisted from creating tickets in ``<guild>``"
+    
+    checkBlacklist:
+      title: "🧷 | Blacklist Status"
+      description: "<user>'s blacklist status is: ``<status>``"
+
+ticket:
+  panel:
+    title: "🎟 | Open a ticket"
+    description: "Press the button down below to create a ticket."
+  opened:
+    title: "🦺 | Support Ticket"
+    description: "Welcome to your Support Ticket. Try to describe your problem in many details, so our support team can help you!"
+  created:
+    description: "Your ticket has been created succesfully! Channel: <#<channel>>."
+  add:
+    title: "👥 | Succesfully Added!"
+    description: "<user> is succesfully added to this ticket."
+  remove:
+    title: "👥 | Succesfully removed!"
+    description: "<user> is succesfully removed from this ticket."
+  claim:
+    title: "<:vinkje:897430508538060842> | Succesfully claimed."
+    description: "<user> succesfully claimed this ticket."
+    topic: "🔐 | <user>"
+  rename: 
+    title: "<:vinkje:897430508538060842> | Succesfully renamed."
+    description: "<user> has renamed this ticket,"
+  limit: 
+    title: "<:kruisje:897430497716740127> | Limit Reached"
+    description: "You cant open more tickets, You reached your limit!"

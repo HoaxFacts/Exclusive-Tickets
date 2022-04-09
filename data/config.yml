@@ -1,0 +1,13 @@
+client:
+  token: "token here"
+  standardPrefix: "e!"
+
+activities:
+  presence: "e!setup"
+  type: "PLAYING"
+
+settings:
+  footer: "Exclusive Tickets © 2021 "
+  color: "GREEN" # Find more at https://gist.github.com/thomasbnt/b6f455e2c7d743b796917fa3c205f812
+  thumbnailURL: "https://cdn.discordapp.com/attachments/846523814707200050/896806563161989160/hoax.png"
+
