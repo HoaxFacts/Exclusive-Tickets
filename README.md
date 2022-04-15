@@ -14,6 +14,9 @@ Discord.JS Ticket System
 ### Reminder
 This bot is easily coded this I did so everyone can understand it, with Managers/Models to make things look clean and not cluttered. Feel free to use these and make a Commit if you can improve anything!
 
+### Note
+If this repo hits 10 stars i will update the bot with moderation and Fun commands!
+
 
 ### Setup the bot
 
